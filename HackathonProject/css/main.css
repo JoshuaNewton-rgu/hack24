@@ -7,8 +7,12 @@ height: 1500px;
 h1{
     font-size: 125px;
     text-align: center;
-    padding-top: 165px;
+    padding: 100px;
     position: absolute;
+    color: white;
+    -webkit-text-stroke-width:5px ;
+    -webkit-text-stroke-color: black;
+    font-family: sans-serif;
 }
 .pageTop{
     height: 500px;
