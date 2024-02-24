@@ -13,3 +13,16 @@ h1{
     background-color: blue;
      object-fit: cover;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.textLeft {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
