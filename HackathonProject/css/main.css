@@ -1,20 +1,18 @@
 /* just random so that it will save */
 
 body { 
-background-color: aqua;
+background-color: white;
+height: 1500px;
 }
 h1{
     font-size: 125px;
     text-align: center;
+    padding-top: 165px;
 }
 .pageTop{
     height: 500px;
-    width: 100%;
-    background-color: blue;
-     object-fit: cover;
+    width: 100%;   
 }
-
-<<<<<<< HEAD
 ul {
     list-style-type: none;
     padding: 0;
@@ -37,17 +35,3 @@ ul {
   li a:hover {
     background-color: mediumspringgreen;
   }
-=======
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.text {
-    margin-right: 20px; /* Adjust the margin as needed */
-}
-
-.textLeft {
-    margin-left: 20px; /* Adjust the margin as needed */
-}
->>>>>>> 79b5d0e1515d214776a319661d0c6b74c56d9e76
