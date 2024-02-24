@@ -8,6 +8,7 @@ h1{
     font-size: 125px;
     text-align: center;
     padding-top: 165px;
+    position: absolute;
 }
 .pageTop{
     height: 500px;
@@ -34,4 +35,8 @@ ul {
   }
   li a:hover {
     background-color: mediumspringgreen;
+  }
+  #MainImage{
+    z-index: -1;
+    position: absolute;
   }
