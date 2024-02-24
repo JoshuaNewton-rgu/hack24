@@ -132,7 +132,8 @@ td:hover {
 }
 
 .gallery-item {
-    width:47%;
+  padding-right: 10%;
+  width: 40%;
     height: 50%;
     margin-bottom: 20px;
 }
