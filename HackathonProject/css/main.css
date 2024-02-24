@@ -173,4 +173,8 @@ img {
   padding: 0;
   background-color: black;
 }
-
+#Logo{
+  width:100px ;
+  height:100px ;
+  align-items: center;
+}
