@@ -1,15 +1,9 @@
 /* just random so that it will save */
 
 body { 
-<<<<<<< HEAD
 background-color: white;
 padding: 0;
 margin:0;
-=======
-    background-color: greenyellow;
-    padding: 0;
-    margin:0;
->>>>>>> 0f41969ec5a49f26f396bbf646431ae715696e97
 }
 
 h1{
@@ -135,4 +129,6 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
+#Map{
+  height: 180px;
+}
