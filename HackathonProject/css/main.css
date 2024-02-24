@@ -66,3 +66,12 @@ ul {
     width: 75%;
     
   }
+
+table{
+  align-items: center;
+}
+
+th, td{
+  width: 300px;
+  text-align: center;
+}
