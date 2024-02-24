@@ -77,15 +77,40 @@ ul {
     transform: translate(-50%, -50%);
   }
 
-table{
-  width: 100%;
-  align-items: center;
+  .calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-th, td{
-  width: 300px;
-  text-align: center;
+.month {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
+
 
 #mapGoHere{
   padding: 0px;
@@ -129,7 +154,24 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
+<<<<<<< HEAD
+.phone{
+  width: 20px;
+  height: 20px;
+}
+.mail{
+  width: 40px;
+  height: 20px;
+}
+.address{
+  width: 25px;
+  height: 25px;
+}
+
+
+=======
 #map{
+<<<<<<< HEAD
   height: 80%;
   width: 80%;
   top: 10%;
@@ -142,3 +184,10 @@ img {
   padding: 0;
   background-color: black;
 }
+=======
+  height: 650px;
+  width: 60%;
+  margin: 400px;
+}
+>>>>>>> 19c4d86ab89174793713d511cf2b873dcf8e7749
+>>>>>>> 8853ba3808590ff1488b6d992d30ecd774787fd3
