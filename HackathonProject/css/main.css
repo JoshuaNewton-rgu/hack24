@@ -50,3 +50,12 @@ ul {
     float: left;
   
   }
+
+table{
+  align-items: center;
+}
+
+th, td{
+  width: 300px;
+  text-align: center;
+}
