@@ -30,13 +30,16 @@
              then you'll probably love orienteering - why not give it a go in one of Aberdeen’s best known parks?
         </div>
         <div id="mapGoHere">
-            <div id="Map">
-                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            <div id="map"></div>
+                <script>
+                    var map = L.map('map').setView([0,0],1);
+                    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 19,
                     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                }).addTo(map);
-
-            </div>
+                    }).addTo(map);
+                    console.log("Test")
+                </script>
+            
         </div>
 
 
