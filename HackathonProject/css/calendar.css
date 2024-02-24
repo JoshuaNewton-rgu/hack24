@@ -1,0 +1,33 @@
+.calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.month {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
