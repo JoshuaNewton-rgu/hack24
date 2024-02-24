@@ -1,4 +1,15 @@
 /* just random so that it will save */
+
 body { 
-    background-color: lightblue;
+background-color: aqua;
+}
+h1{
+    font-size: 125px;
+    text-align: center;
+}
+.pageTop{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+     object-fit: cover;
 }
