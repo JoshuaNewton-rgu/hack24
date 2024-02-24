@@ -1,9 +1,11 @@
 /* just random so that it will save */
 
 body { 
-background-color: white;
-height: 1500px;
+background-color: greenyellow;
+padding: 0;
+margin:0;
 }
+
 h1{
     font-size: 125px;
     text-align: center;
@@ -13,7 +15,9 @@ h1{
     -webkit-text-stroke-width:5px ;
     -webkit-text-stroke-color: black;
     font-family: sans-serif;
+
 }
+
 .pageTop{
     height: 500px;
     width: 100%; 
@@ -64,7 +68,7 @@ ul {
     width: 75%;
     padding: 0;
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -78,7 +82,10 @@ th, td{
   text-align: center;
 }
 #mapGoHere{
+  padding: 0px;
+  margin: 0;
   height:700px ;
   width:100% ;
   background-color: wheat;
+
 }
