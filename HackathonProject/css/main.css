@@ -154,7 +154,6 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-<<<<<<< HEAD
 .phone{
   width: 20px;
   height: 20px;
@@ -169,9 +168,7 @@ img {
 }
 
 
-=======
 #map{
-<<<<<<< HEAD
   height: 80%;
   width: 80%;
   top: 10%;
@@ -184,10 +181,4 @@ img {
   padding: 0;
   background-color: black;
 }
-=======
-  height: 650px;
-  width: 60%;
-  margin: 400px;
-}
->>>>>>> 19c4d86ab89174793713d511cf2b873dcf8e7749
->>>>>>> 8853ba3808590ff1488b6d992d30ecd774787fd3
+
