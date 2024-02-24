@@ -52,6 +52,7 @@ ul {
   #MainImage{
     z-index: -1;
     position: absolute;
+    padding: 0;
   }
   footer{
     float: left;
@@ -125,12 +126,19 @@ img {
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 6%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 #map{
-  height: 650px;
-  width: 60%;
-  margin: 400px;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+}
+#background{
+  width: 100%;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
