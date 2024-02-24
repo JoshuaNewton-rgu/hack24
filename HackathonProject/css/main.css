@@ -77,8 +77,43 @@ th, td{
   width: 300px;
   text-align: center;
 }
+
 #mapGoHere{
   height:700px ;
   width:100% ;
   background-color: wheat;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900%;
+    margin: 20px auto;
+}
+
+.gallery-item {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.text-left {
+    float: left;
+    clear: left;
+    margin-right: 20px;
+}
+
+.text-right {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
