@@ -87,7 +87,7 @@ button {
   background-color:forestgreen;
   color: white;
   font-size: large;
-  border: none;
+  border: 1px;
 }
 
 
