@@ -47,7 +47,10 @@ h1{
 
 }
 
-#short {
+#short,
+#short-how,
+#long,
+#long-how {
   text-align: left;
   padding-right: 40%;
   margin-top:20%;
@@ -62,10 +65,28 @@ h1{
 
 }
 
-.bg {
-  padding-top: 0px;
+.bgwhite {
+  padding-top: 0;
   margin: 0;
   height:450px ;
+  width:100% ;
+  background-color: white;
+
+}
+
+#short-grid {
+  width:85%;
+}
+
+#long-course {
+  width:110%;
+  margin-top:5%;
+}
+
+.bg {
+  padding-top: 0;
+  margin: 0;
+  height:475px ;
   width:100% ;
   background-color: wheat;
 
