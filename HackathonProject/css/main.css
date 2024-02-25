@@ -377,3 +377,14 @@ a {
   padding: 14px 5%;
   text-decoration: none;
 }
+footer{
+  width: 100%;
+  padding: 0;
+}
+.navbars a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
