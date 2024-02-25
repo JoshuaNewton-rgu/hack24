@@ -47,7 +47,7 @@
                    
                     iconSize: [25, 50], // size of the icon
                     iconAnchor: [20, 15], // point of the icon which will correspond to marker's location
-                    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+                    popupAnchor: [0,-10] // point from which the popup should open relative to the iconAnchor
                 });
     
                 var Bus2 = L.icon({
@@ -55,7 +55,7 @@
                    
                     iconSize: [30, 40], // size of the icon
                     iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
-                    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+                    popupAnchor: [0, -10] // point from which the popup should open relative to the iconAnchor
                 });
     
                 var Car = L.icon({
@@ -63,7 +63,7 @@
                    
                     iconSize: [25, 50], // size of the icon
                     iconAnchor: [15, 25], // point of the icon which will correspond to marker's location
-                    popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+                    popupAnchor: [0, -10] // point from which the popup should open relative to the iconAnchor
                 });
     
                 L.marker([57.130816, -2.106979], {icon: Bus}).addTo(map).bindPopup('Bus 17').openPopup();
