@@ -25,6 +25,41 @@ h1{
 
 }
 
+
+/* ORIENTEERING PAGE
+---------------------------------*/
+
+#menu li {
+    list-style-type: none;
+}
+
+#orienteering {
+    margin:50px;
+    padding:50px;
+}
+
+.col {
+    float:left;
+    width:50%;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+.course-img {
+    width: 50%;
+
+}
+
+#short {
+    text-align: left;
+    padding-right: 30%;
+}
+
+
+
+
+
+
 ul {
     list-style-type: none;
     padding: 0;
