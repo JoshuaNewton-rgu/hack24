@@ -179,10 +179,25 @@ img {
   align-items: center;
 }
   /* Style for the menu */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    padding-top: 20px; /* Add padding at the top */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Style for the links in the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  /* Change color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
   }
 
   /* Style for the dropdown content */
@@ -211,7 +226,6 @@ img {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-   top: 100px;
   }
 
 #mapGoHere1{
