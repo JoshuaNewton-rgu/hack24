@@ -57,6 +57,7 @@ ul {
     padding: 0;
     width: 100%;
     height: 55%;
+  
   }
   footer{
     float: left;
@@ -178,6 +179,7 @@ img {
 #Logo{
   width:100px ;
   height:100px ;
+  z-index: -1;
 
   align-items: center;
 }
