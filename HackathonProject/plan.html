@@ -10,22 +10,73 @@
             <img src="Images/DuthieParkPic.jpg" alt="East Lodge" width="100%" height="500px" id="MainImage">
         </div>
         
-        <nav>
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="plan.html">Plan Your Journey</a></li>
-                    <li><a href="map.html">Map</a></li>
-                    <li><a href="event_calendar.html">Events</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <footer>
-            <li><a href="Policies.html">Park Policies</a></li>
-            <li><a href="contact_us.html">Contact us here</a></li>
-        </footer>
+        <html> 
+    <html class="no-js" lang=""></html>
+        <head>
+            <title>Duffy Park Explorers</title>
+            <link rel='stylesheet' href='leaflet.css'>
 
-    </body>
-</html>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+        </head>
+
+        </body>
+    </html>
+        </head>
+
+        <body>
+            <div class = "pageTop">
+                <h1>Duthie Park</h1>
+            </div>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="plan.html">Plan Your Journey</a></li>
+                        <li><a href="map.html">Park Map</a></li>
+                        <li><a href="event_calendar.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id=mapGoHere1>
+                <p> Duthie Park, located in Aberdeen, offers various convenient routes for visitors to access its scenic beauty and recreational facilities. Whether you prefer a leisurely stroll, a bike ride, or public transportation, there are numerous ways to reach this vibrant green oasis. Pedestrians can enjoy a pleasant walk through surrounding neighborhoods or along the picturesque River Dee, savoring the journey before reaching the park's entrance. Cyclists can take advantage of designated bike paths leading to Duthie Park, ensuring a smooth and enjoyable ride. Additionally, public transportation options such as buses provide accessible routes, making it convenient for those who prefer a more relaxed commute. With a multitude of pathways converging towards Duthie Park, visitors can choose the mode of transportation that best suits their preferences, creating a seamless and diverse experience for all. </p>
+                <div id="map1">
+                    <script> 
+                        var map = L.map('map1').setView([57.13096321710194, -2.106994305134518], 16);
+                        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            maxZoom: 19,
+                            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                        }).addTo(map);
+                
+                        
+                        L.marker([57.130816, -2.106979]).addTo(map).bindPopup('Bus 17').openPopup();
+                        L.marker([57.132498, -2.108428]).addTo(map).bindPopup('Bus 17').openPopup();
+                        L.marker([57.132830, -2.106069]).addTo(map).bindPopup('Bus 17').openPopup();
+                        L.marker([57.134279, -2.103613]).addTo(map).bindPopup('Bus 17').openPopup();
+                        L.marker([57.133736, -2.103281]).addTo(map).bindPopup('Bus 17').openPopup();
+                    
+                        L.marker([57.130684, -2.107138]).addTo(map).bindPopup('Bus 18').openPopup();
+                        L.marker([57.132925, -2.108723]).addTo(map).bindPopup('Bus 18').openPopup();
+                
+                        L.marker([57.129708, -2.099139]).addTo(map).bindPopup('Car Park').openPopup();
+                        L.marker([57.130068, -2.094452]).addTo(map).bindPopup('Car Park').openPopup();
+                    </script>
+                </div>
+            </div>
+
+            <footer>
+                <li><a href="Policies.html">Park Policies</a></li>
+                <li><a href="contact_us.html">Contact us here</a></li>
+            </footer>
+
+
+
+        </body>
+    </html>
