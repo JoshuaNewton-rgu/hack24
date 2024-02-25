@@ -212,7 +212,9 @@ img {
     z-index: 1;
     width: 50%;
     height: 250%;
-    background-color: white;
+    background-color: whitesmoke;
+    font-size: 150%;
+    
   }
 
   /* Style for the links in the dropdown */
