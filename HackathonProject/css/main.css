@@ -367,18 +367,13 @@ text-align: center;
   background-color: wheat;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
+
+
+a {
+  background-color: forestgreen;
+  display: inline-block;
+  color: #f2f2f2;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
-<<<<<<< HEAD
-
-=======
-
-
->>>>>>> f41ad3ddbb8ae7dd3877682354ea56d10a35e71b
+  padding: 14px 5%;
+  text-decoration: none;
+}
