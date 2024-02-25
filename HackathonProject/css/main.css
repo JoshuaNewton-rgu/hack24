@@ -31,62 +31,62 @@ h1{
 
 
 #orienteering {
-    margin:50px;
-    padding:50px;
+  margin:50px;
+  padding:50px;
 }
 
 .col {
-    float:left;
-    width:50%;
-    box-sizing: border-box;
-    padding-left: 100px;
+  float:left;
+  width:50%;
+  box-sizing: border-box;
+  padding-left: 100px;
 }
 
 .course-img {
-    width: 80%;
+  width: 80%;
 
 }
 
 #short {
-    text-align: left;
-    padding-right: 40%;
+  text-align: left;
+  padding-right: 40%;
 }
 
 #menu {
-    padding-top: 0px;
-    margin: 0;
-    height:100px ;
-    width:100% ;
-    background-color: wheat;
+  padding-top: 0px;
+  margin: 0;
+  height:100px ;
+  width:100% ;
+  background-color: wheat;
 
 }
 
 .bg {
-    padding-top: 0px;
-    margin: 0;
-    height:400px ;
-    width:100% ;
-    background-color: wheat;
+  padding-top: 0px;
+  margin: 0;
+  height:400px ;
+  width:100% ;
+  background-color: wheat;
 
 }
 
 #menu-text {
-    padding-left: 10%;
+  padding-left: 10%;
 }
 
 #menu-text h2{
-    margin-top:0;
-    margin-bottom:10px;
+  margin-top:0;
+  margin-bottom:10px;
 }
 
 button {
-    padding: 5px;
-    margin: 3px;
-    overflow: hidden;
-    background-color:forestgreen;
-    color: white;
-    font-size: large;
-    border: none;
+  padding: 1%;
+  margin: 0;
+  overflow: hidden;
+  background-color:forestgreen;
+  color: white;
+  font-size: large;
+  border: none;
 }
 
 
