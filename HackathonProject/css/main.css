@@ -178,3 +178,20 @@ img {
   height:100px ;
   align-items: center;
 }
+
+#mapGoHere1{
+  padding: 0px;
+  margin: 0;
+  height:700px;
+  width:100% ;
+  background-color: wheat;
+}
+
+#map1 { 
+  height: 80%;
+  width: 80%;
+  top: 3%;
+  left: 10%;
+}
+
+
