@@ -17,9 +17,11 @@
 
     <body>
 
-        <div class="pageTop">
-            <h1>Duthie Park</h1>
-        </div>
+        <body>
+            <div class="pageTop">
+                <h1>Duthie Park</h1>
+                <img src="Images/DuthieParkPic.jpg" alt="East Lodge" width="100%" height="500px" id="MainImage">
+            </div>
         <nav>
             <div>
             <ul>
@@ -39,10 +41,19 @@
             </ul>     
             </div>
         </nav>
-    
+        <div id="Quote">
+            Duthie Park, located in Aberdeen, offers various convenient routes for visitors to access its scenic 
+            beauty and recreational facilities. Whether you prefer a leisurely stroll, a bike ride, or public transportation,
+             there are numerous ways to reach this vibrant green oasis. Pedestrians can enjoy a pleasant walk through surrounding
+              neighborhoods or along the picturesque River Dee, savoring the journey before reaching the park's entrance. Cyclists can take
+               advantage of designated bike paths leading to Duthie Park, ensuring a smooth and enjoyable ride. Additionally, public transportation 
+               options such as buses provide accessible routes, making it convenient for those who prefer a more relaxed commute. With a multitude of
+                pathways converging towards Duthie Park, visitors can choose the mode of transportation that best suits their preferences, creating a 
+                seamless and diverse experience for all. </p>
+        </div>
+        
         <div id="mapGoHere1">
-            <p> Duthie Park, located in Aberdeen, offers various convenient routes for visitors to access its scenic beauty and recreational facilities. Whether you prefer a leisurely stroll, a bike ride, or public transportation, there are numerous ways to reach this vibrant green oasis. Pedestrians can enjoy a pleasant walk through surrounding neighborhoods or along the picturesque River Dee, savoring the journey before reaching the park's entrance. Cyclists can take advantage of designated bike paths leading to Duthie Park, ensuring a smooth and enjoyable ride. Additionally, public transportation options such as buses provide accessible routes, making it convenient for those who prefer a more relaxed commute. With a multitude of pathways converging towards Duthie Park, visitors can choose the mode of transportation that best suits their preferences, creating a seamless and diverse experience for all. </p>
-            <div id="map1"></div>
+        <div id="map1"></div>
             <script>
                 var map = L.map('map1').setView([57.13096321710194, -2.106994305134518], 16);
                 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
