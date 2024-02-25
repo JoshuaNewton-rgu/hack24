@@ -347,6 +347,18 @@ button{
   padding-top: 1%;
 }
 
+
+/*Footer*/
+hr{
+  width: 1900px;
+  border: 0.5px solid black;
+}
+
+.below-line{
+background-color: forestgreen;
+}
+
+
 #rules{
   background-color: wheat;
 }
@@ -357,3 +369,4 @@ button{
   margin: 0;
   padding: 0;
 }
+
