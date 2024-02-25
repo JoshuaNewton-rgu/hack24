@@ -50,6 +50,7 @@ h1{
 #short {
   text-align: left;
   padding-right: 40%;
+  margin-top:20%;
 }
 
 #menu {
@@ -87,7 +88,6 @@ button {
   background-color:forestgreen;
   color: white;
   font-size: large;
-  border: 1px;
 }
 
 
