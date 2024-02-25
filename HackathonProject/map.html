@@ -50,20 +50,17 @@
             maxZoom: 20,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
-
+    
         var shortCoursePolygon = null; // Variable to store the short course polygon
         var longCoursePolygon = null;
-        
+    
         function shortcourse() {
             if (longCoursePolygon) {
                 map.removeLayer(longCoursePolygon);
                 longCoursePolygon = null; // Reset the variable
             }
-
-            if (shortCoursePolygon) {
-                map.removeLayer(longCoursePolygon);
-                shortCoursePolygon = null; // Reset the variable
-            } else {
+    
+            if (!shortCoursePolygon) {
                 var polygonCoordinates = [
                     [57.132187, -2.102728],
                     [57.131494, -2.101934],
@@ -79,36 +76,32 @@
                 shortCoursePolygon = L.polygon(polygonCoordinates, { fill: false }).addTo(map);
             }
         }
-
+    
         function longcourse() {
             if (shortCoursePolygon) {
-                map.removeLayer(longCoursePolygon);
-                shortCoursePolygon = null; // Reset the variable
-            } 
-
-
-            if (longCoursePolygon) {
                 map.removeLayer(shortCoursePolygon);
-                longCoursePolygon = null; // Reset the variable
-            } else {
+                shortCoursePolygon = null; // Reset the variable
+            }
+    
+            if (!longCoursePolygon) {
                 var polygonCoordinates = [
-                [57.132445, -2.102539],
-                [57.131475, -2.102025],
-                [57.130893, -2.100596],
-                [57.129689, -2.099997],
-                [57.129650, -2.100474],
-                [57.130144, -2.101325],
-                [57.129289, -2.102951],
-                [57.129017, -2.105207],
-                [57.129987, -2.104909],
-                [57.129103, -2.105598],
-                [57.129235, -2.106717],
-                [57.131421, -2.107263],
-                [57.131122, -2.105739],
-                [57.132184, -2.106196],
-                [57.131332, -2.104965],
-                [57.130766, -2.105375],
-                [57.131332, -2.104555],
+                    [57.132445, -2.102539],
+                    [57.131475, -2.102025],
+                    [57.130893, -2.100596],
+                    [57.129689, -2.099997],
+                    [57.129650, -2.100474],
+                    [57.130144, -2.101325],
+                    [57.129289, -2.102951],
+                    [57.129017, -2.105207],
+                    [57.129987, -2.104909],
+                    [57.129103, -2.105598],
+                    [57.129235, -2.106717],
+                    [57.131421, -2.107263],
+                    [57.131122, -2.105739],
+                    [57.132184, -2.106196],
+                    [57.131332, -2.104965],
+                    [57.130766, -2.105375],
+                    [57.131332, -2.104555],
                 ];
                 longCoursePolygon = L.polygon(polygonCoordinates, { fill: false }).addTo(map);
             }
